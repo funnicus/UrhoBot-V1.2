@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en" lang="en">
+
+
+
+<head>
+<meta charset="utf-8">
+<title>urhoBot_V.1.2 - have a conversation</title>
+
+ <link rel="stylesheet" type="text/css" href="chatBot.css">
+ <link rel="shortcut icon" type="image/png" href="pictures/sayIt.png">
+ 
+  
+</head>
+
+<body>
+
+	<h1></h1>
+
+ <div id="wrapper">
+	<div id="menu">
+        <p class="welcome"><b>Welcome, chosen one.</b></p>
+        <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+        <div style="clear:both"></div>
+    </div>
+     
+    <div id="chatbox">
+		<p><b>urhoBot:</b> Hello human, I'm pleased to meet you. Lets talk!</p>
+		<p>&zwnj;</p>
+		
+	</div>
+     
+    <form name="message" action="" onSubmit="return false;">
+        <input name="usermsg" type="text" id="usermsg" size="63" placeholder="" />
+        <input name="submitmsg" type="submit"  id="submitmsg" value="Send" onclick="sendText()"/>
+    </form>
+	
+	<img src="pictures/urhoProfile.jpg" class="img-circle" height = 150px width = 100px>
+	<p>Converse with urhoBot_V.1.2</p>
+	<p>By: <b>Juhana Kuparinen</b></p>
+	
+	
+ </div>
+	<p>&zwnj;</p>
+	<p>You can ask me things like: "Time?", "Who are you?", "How's it going?" etc.</p>
+	<p>Remember: I'm now smarter, but still pretty dumb, so pay attention to your grammar and/or don't ask multiple question at same time... Otherwise I may not understand you.</p>
+ 
+<script src="scripts/main.js"></script> 
+</body>
+
+</html>
